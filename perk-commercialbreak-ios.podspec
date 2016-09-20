@@ -15,6 +15,8 @@ Pod::Spec.new do |s|
   s.author           = { 'Nilesh Thummar' => 'nilesh@perk.com' }
   s.source           = { :git => 'https://github.com/perk-nilesh/perk-commercialbreak-ios.git', :tag => s.version }
   s.ios.deployment_target = '8.0'
+    s.platform     = :ios
+    s.platform     = :ios, "8.0"
   s.source_files  = "CommercialBreakSDK/"
   s.preserve_paths = "CommercialBreakSDK/libCommercialBreakSDK.a"
 #s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(SRCROOT)/Pods/CommercialBreakSDK/Lib' }
