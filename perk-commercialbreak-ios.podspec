@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.version          = '1.4.0'
   s.summary          = 'CommercialBreakSDK for iOS'
   s.homepage         = 'https://github.com/perk-nilesh/perk-commercialbreak-ios'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = 'Code is MIT, then custom font licenses.'
   s.author           = { 'Nilesh Thummar' => 'nilesh@perk.com' }
   s.source           = { :git => 'https://github.com/perk-nilesh/perk-commercialbreak-ios.git', :tag => s.version }
   s.ios.deployment_target = '8.0'
