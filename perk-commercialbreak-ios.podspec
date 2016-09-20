@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 #s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(SRCROOT)/Pods/CommercialBreakSDK/Lib' }
 
   s.ios.vendored_library = "CommercialBreakSDK/libCommercialBreakSDK.a"
-  s.public_header_files = "CommercialBreakSDK/Header/*.h"
+#s.public_header_files = "CommercialBreakSDK/Header/*.h"
   s.xcconfig = { 'LD_RUNPATH_SEARCH_PATHS' => '@loader_path/../Frameworks'} 
   s.resources = "CommercialBreakSDK/*.bundle"
 
